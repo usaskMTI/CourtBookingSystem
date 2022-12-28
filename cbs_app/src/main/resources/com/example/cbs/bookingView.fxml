@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="1071.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutX="10.0" layoutY="55.0" prefHeight="535.0" prefWidth="1051.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Court 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView prefHeight="507.0" prefWidth="1051.0" AnchorPane.rightAnchor="0.0">
+                          <columns>
+                            <TableColumn prefWidth="162.0" text="Time Slot" />
+                            <TableColumn minWidth="-1.0" prefWidth="133.0" text="Monday" />
+                              <TableColumn minWidth="-1.0" prefWidth="146.0" text="Tuesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Wednesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Thursday" />
+                              <TableColumn minWidth="-1.0" prefWidth="110.0" text="Friday" />
+                              <TableColumn minWidth="-1.0" prefWidth="129.0" text="Saturday" />
+                              <TableColumn minWidth="-1.0" prefWidth="104.0" text="Sunday" />
+                          </columns>
+                        </TableView>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Court 2">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView prefHeight="507.0" prefWidth="1051.0" AnchorPane.rightAnchor="0.0">
+                           <columns>
+                              <TableColumn prefWidth="162.0" text="Time Slot" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Monday" />
+                              <TableColumn minWidth="-1.0" prefWidth="146.0" text="Tuesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Wednesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Thursday" />
+                              <TableColumn minWidth="-1.0" prefWidth="110.0" text="Friday" />
+                              <TableColumn minWidth="-1.0" prefWidth="129.0" text="Saturday" />
+                              <TableColumn minWidth="-1.0" prefWidth="104.0" text="Sunday" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Court 3">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView prefHeight="507.0" prefWidth="1051.0" AnchorPane.rightAnchor="0.0">
+                           <columns>
+                              <TableColumn prefWidth="162.0" text="Time Slot" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Monday" />
+                              <TableColumn minWidth="-1.0" prefWidth="146.0" text="Tuesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Wednesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Thursday" />
+                              <TableColumn minWidth="-1.0" prefWidth="110.0" text="Friday" />
+                              <TableColumn minWidth="-1.0" prefWidth="129.0" text="Saturday" />
+                              <TableColumn minWidth="-1.0" prefWidth="104.0" text="Sunday" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Court 4">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView prefHeight="507.0" prefWidth="1051.0" AnchorPane.rightAnchor="0.0">
+                           <columns>
+                              <TableColumn prefWidth="162.0" text="Time Slot" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Monday" />
+                              <TableColumn minWidth="-1.0" prefWidth="146.0" text="Tuesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Wednesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Thursday" />
+                              <TableColumn minWidth="-1.0" prefWidth="110.0" text="Friday" />
+                              <TableColumn minWidth="-1.0" prefWidth="129.0" text="Saturday" />
+                              <TableColumn minWidth="-1.0" prefWidth="104.0" text="Sunday" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Court 5">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView prefHeight="507.0" prefWidth="1051.0" AnchorPane.rightAnchor="0.0">
+                           <columns>
+                              <TableColumn prefWidth="132.0" text="Time Slot" />
+                              <TableColumn minWidth="-1.0" prefWidth="163.0" text="Monday" />
+                              <TableColumn minWidth="-1.0" prefWidth="146.0" text="Tuesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Wednesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Thursday" />
+                              <TableColumn minWidth="-1.0" prefWidth="110.0" text="Friday" />
+                              <TableColumn minWidth="-1.0" prefWidth="129.0" text="Saturday" />
+                              <TableColumn minWidth="-1.0" prefWidth="104.0" text="Sunday" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Court 6">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView prefHeight="507.0" prefWidth="1051.0" AnchorPane.rightAnchor="0.0">
+                           <columns>
+                              <TableColumn prefWidth="162.0" text="Time Slot" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Monday" />
+                              <TableColumn minWidth="-1.0" prefWidth="146.0" text="Tuesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Wednesday" />
+                              <TableColumn minWidth="-1.0" prefWidth="133.0" text="Thursday" />
+                              <TableColumn minWidth="-1.0" prefWidth="110.0" text="Friday" />
+                              <TableColumn minWidth="-1.0" prefWidth="129.0" text="Saturday" />
+                              <TableColumn minWidth="-1.0" prefWidth="104.0" text="Sunday" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Label layoutX="828.0" layoutY="603.0" prefHeight="17.0" prefWidth="86.0" text="0/6 Booking" />
+      <Button layoutX="924.0" layoutY="599.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" text="Add to cart" />
+   </children>
+</AnchorPane>
